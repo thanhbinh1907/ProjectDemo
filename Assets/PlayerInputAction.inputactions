@@ -7,24 +7,44 @@
             "id": "61de7f51-b27a-4152-ab53-d5bbfa7d1052",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Value",
-                    "id": "562d268b-415c-4eda-974b-d0993c175a5c",
-                    "expectedControlType": "Axis",
+                    "name": "MoveForward",
+                    "type": "Button",
+                    "id": "37f069fb-1f19-41a1-9b7b-70e439fe083c",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveBack",
+                    "type": "Button",
+                    "id": "9e12e0ac-a7c3-40d6-a68a-af8268addd8a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "8a324fce-48fb-4252-8f15-609c735ef76e",
-                    "path": "<Keyboard>/A",
+                    "id": "cd42c415-4b4b-4487-9c3f-b0b1614c8e4b",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cde26c3-f00c-407a-982e-8213a27913d8",
+                    "path": "<Keyboard>/X",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

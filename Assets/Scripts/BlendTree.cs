@@ -14,7 +14,7 @@ public class BlendTree : MonoBehaviour
 		float moveSpeed = new Vector3(inputX, 0, inputZ).magnitude;
 
 		// Tăng nhanh hoặc giảm chậm để tạo cảm giác mượt
-		moveSpeed = Mathf.Lerp(animator.GetFloat("Speed"), moveSpeed * 2f, Time.deltaTime * 5f);
+		moveSpeed = Mathf.Lerp(animator.GetFloat("Speed"), moveSpeed * 5, Time.deltaTime);
 
 		// Gán giá trị cho Animator
 		animator.SetFloat("Speed", moveSpeed);
